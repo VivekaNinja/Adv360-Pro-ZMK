@@ -44,7 +44,7 @@ macro_dquote_de: macro_dquote_de{
 compatible = "zmk,behavior-macro";
 label = "macro_dquote_de";
 #binding-cells = <0>;
-bindings = <&kp N2>, <&kp N2>, <&kp LEFT>;
+bindings = <&kt LSHIFT>, <&kp N2>, <&kp N2>, <&kt LSHFT>, <&kp LEFT>;
 };
 macro_braces_de: macro_braces_de{
 compatible = "zmk,behavior-macro";
