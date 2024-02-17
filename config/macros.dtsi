@@ -38,23 +38,23 @@ macro_quotes_de: macro_quotes_de{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes_de";
 #binding-cells = <0>;
-bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+bindings = <&kp BSLH>, <&kp BSLH>, <&kp LEFT>;
 };
-macro_dquote_des: macro_dquotes_de{
+macro_dquote_des: macro_dquote_des{
 compatible = "zmk,behavior-macro";
-label = "macro_dquotes_de";
+label = "macro_dquote_des";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+bindings = <&kp N2>, <&kp N2>, <&kp LEFT>;
 };
 macro_braces_de: macro_braces_de{
 compatible = "zmk,behavior-macro";
 label = "macro_braces_de";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+bindings = <&kt RALT>, <&kp N7>, <&kp N0>, <&kt RALT>, <&kp LEFT>;
 };
-macro_parens: macro_parens_de{
+macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
-label = "macro_parens_de";
+label = "macro_parens";
 #binding-cells = <0>;
 bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
 };
@@ -62,7 +62,7 @@ macro_brackets_de: macro_brackets_de{
 compatible = "zmk,behavior-macro";
 label = "macro_brackets_de";
 #binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+bindings = <&kt RALT>, <&kp N8>, <&kp N9>, <&kt RALT>, <&kp LEFT>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
