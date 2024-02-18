@@ -1,8 +1,14 @@
+macro_backslash_de: macro_backslash_de{
+compatible = "zmk,behavior-macro";
+label = "macro_backslash_de";
+#binding-cells = <0>;
+bindings = <&kt RALT>, <&kp MINUS>, <&kt RALT>;
+};
 macro_tilde_de: macro_tilde_de{
 compatible = "zmk,behavior-macro";
 label = "macro_tilde_de";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp LBKT>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp RBKT>, <&kt RALT>;
 };
 macro_pipe_de: macro_pipe_de{
 compatible = "zmk,behavior-macro";
