@@ -78,5 +78,14 @@
             >;
         };
 
+        layer_ctrlshift {
+            bindings = <
+    &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans  &trans  &kp UP  &trans  &trans  &trans
+    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans            &trans  &kp LEFT  &kp DOWN  &RIGHT  &trans  &trans
+    &trans  &trans  &trans  &trans  &trans  &trans                                 &trans                  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans                  &trans  &trans &trans                &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
