@@ -42,7 +42,7 @@
 
     ctrl_shift {
       key-positions = <46 66>;
-      bindings = <&kp TAB>;
+      bindings = <&mo 4>;
     };
   };
 
