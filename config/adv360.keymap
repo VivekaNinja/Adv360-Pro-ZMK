@@ -34,10 +34,11 @@
     combos {
         compatible = "zmk,combos";
 
-        CTRL_SHIFT {
+/*        CTRL_SHIFT {
             bindings = <&mo 4>;
             key-positions = <60 46>;
         };
+*/
     };
 
     macros {
