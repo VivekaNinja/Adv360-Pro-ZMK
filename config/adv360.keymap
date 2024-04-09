@@ -194,11 +194,11 @@
 
         layer_fn {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                           &kp F7           &kp F8  &kp F9            &kp F10             &kp F11           &kp F12  &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans  &bootloader                                      &bootloader      &trans  &trans            &trans              &trans            &trans   &kp RBKT
-&trans     &none   &trans  &trans  &trans  &trans  &none        &trans  &trans      &trans  &trans  &macro_tilde_de  &trans  &macro_parens_de  &macro_brackets_de  &macro_braces_de  &trans   &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans                       &trans      &trans                           &trans  &macro_quotes_de  &macro_dquote_de    &trans            &trans   &trans
-&trans     &trans  &trans  &trans  &trans          &trans       &trans  &trans      &trans  &trans  &trans                   &trans            &trans              &trans            &trans   &trans
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                           &kp F7           &kp F8  &kp F9            &kp F10             &kp F11           &kp F12   &kp EQUAL
+&trans     &trans  &trans  &trans  &trans  &trans  &bootloader                                      &bootloader      &trans  &trans            &trans              &trans            &trans    &kp RBKT
+&trans     &none   &trans  &trans  &trans  &trans  &none        &trans  &trans      &trans  &trans  &macro_tilde_de  &trans  &macro_parens_de  &macro_brackets_de  &macro_braces_de  &kp HASH  &kp NON_US_HASH
+&trans     &trans  &trans  &trans  &trans  &trans                       &trans      &trans                           &trans  &macro_quotes_de  &macro_dquote_de    &trans            &trans    &trans
+&trans     &trans  &trans  &trans  &trans          &trans       &trans  &trans      &trans  &trans  &trans                   &trans            &trans              &trans            &trans    &trans
             >;
         };
 
