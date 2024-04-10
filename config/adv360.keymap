@@ -223,7 +223,7 @@
         layer_arrows {
             bindings = <
 &trans  &trans          &trans          &trans          &trans           &trans  &trans                                            &trans  &trans  &macro_brackets_de  &macro_braces_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
-&trans  &trans          &trans          &trans          &trans           &trans  &trans                                            &trans  &trans  &trans              &kp UP            &trans            &macro_asterisk_de  &macro_backslash_de
+&trans  &trans          &trans          &mmv MOVE_UP    &trans           &trans  &trans                                            &trans  &trans  &trans              &kp UP            &trans            &macro_asterisk_de  &macro_backslash_de
 &trans  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans     &trans     &trans      &trans  &trans  &trans  &trans  &kp LEFT            &kp DOWN          &kp RIGHT         &trans              &kp NUHS
 &trans  &trans          &trans          &trans          &trans           &trans                        &trans      &trans                  &trans  &trans              &trans            &trans            &trans              &trans
 &trans  &macro_pipe_de  &trans          &trans          &trans                   &mkp LCLK  &mkp RCLK  &trans      &trans  &trans  &trans          &trans              &trans            &trans            &trans              &trans
