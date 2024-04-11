@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
+    - name: refil
+      url-base: https://github.com/refil
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: feat/pointers-move-scroll
+      remote: refil
+      revision: adv360-z3.2-3
       import: app/west.yml
   self:
     path: config
