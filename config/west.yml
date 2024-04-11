@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: refil
-      url-base: https://github.com/refil
+    - name: PolarityWorks
+      url-base: https://github.com/PolarityWorks
   projects:
     - name: zmk
-      remote: refil
-      revision: adv360-z3.2-3
+      remote: PolarityWorks
+      revision: zephyr-3.5
       import: app/west.yml
   self:
     path: config
