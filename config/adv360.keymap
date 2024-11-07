@@ -174,27 +174,6 @@
             #binding-cells = <0>;
             bindings = <&kt LSHFT &kp RIGHT_BRACKET &kt LSHFT>;
         };
-
-        macro_right_click_kb: right_click_kb {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(F10)>;
-            label = "RIGHT_CLICK_KB";
-        };
-
-        macro_left_click_kb: macro_left_click_kb {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp KP_NUMBER_5>;
-            label = "MACRO_LEFT_CLICK_KB";
-        };
-
-        macro_Alt_F4: macro_Alt_F4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(F4)>;
-            label = "MACRO_ALT_F4";
-        };
     };
 
     keymap {
@@ -242,11 +221,11 @@
 
         layer_arrows {
             bindings = <
-&trans  &trans          &trans  &trans  &macro_Alt_F4  &trans  &trans                                                                          &trans  &trans  &macro_braces_de  &macro_brackets_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
-&trans  &trans          &trans  &trans  &trans         &trans  &trans                                                                          &trans  &trans  &trans            &kp UP              &trans            &macro_asterisk_de  &macro_backslash_de
-&trans  &trans          &trans  &trans  &trans         &trans  &trans                &trans                 &trans             &trans  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp RIGHT         &kp RIGHT_BRACKET   &kp NUHS
-&trans  &trans          &trans  &trans  &trans         &trans                                               &kp PG_UP          &trans                  &trans  &trans            &trans              &trans            &trans              &trans
-&trans  &macro_pipe_de  &trans  &trans  &trans                 &macro_left_click_kb  &macro_right_click_kb  &kp PAGE_DOWN      &trans  &trans  &trans          &trans            &trans              &trans            &trans              &trans
+&trans  &trans          &trans  &trans  &kp LA(F4)  &kp F5  &trans                                                     &trans  &trans  &macro_braces_de  &macro_brackets_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
+&trans  &trans          &trans  &trans  &trans      &trans  &trans                                                     &trans  &trans  &trans            &kp UP              &trans            &macro_asterisk_de  &macro_backslash_de
+&trans  &trans          &trans  &trans  &trans      &trans  &trans     &trans       &trans             &trans  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp RIGHT         &kp RIGHT_BRACKET   &kp NUHS
+&trans  &trans          &trans  &trans  &trans      &trans                          &kp PG_UP          &trans                  &trans  &trans            &trans              &trans            &trans              &trans
+&trans  &macro_pipe_de  &trans  &trans  &trans              &kp KP_N5  &kp LS(F10)  &kp PAGE_DOWN      &trans  &trans  &trans          &trans            &trans              &trans            &trans              &trans
             >;
         };
     };
