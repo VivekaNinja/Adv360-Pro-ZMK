@@ -179,7 +179,7 @@
         macro_right_click_kb: right_click_kb {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_SHIFT &kp F10 &kp LEFT_SHIFT>;
+            bindings = <&kp LS(F10)>;
             label = "RIGHT_CLICK_KB";
         };
     };
