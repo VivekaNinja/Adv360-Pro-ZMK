@@ -175,6 +175,13 @@
             #binding-cells = <0>;
             bindings = <&kt LSHFT &kp RIGHT_BRACKET &kt LSHFT>;
         };
+
+        macro_right_click_kb: right_click_kb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LEFT_SHIFT &kp F10 &kp LEFT_SHIFT>;
+            label = "RIGHT_CLICK_KB";
+        };
     };
 
     keymap {
@@ -222,11 +229,11 @@
 
         layer_arrows {
             bindings = <
-&trans  &trans          &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &macro_braces_de  &macro_brackets_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
-&trans  &trans          &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans            &kp UP              &trans            &macro_asterisk_de  &macro_backslash_de
-&trans  &trans          &trans  &trans  &trans  &trans  &trans     &trans     &trans      &trans  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp RIGHT         &kp RIGHT_BRACKET   &kp NUHS
-&trans  &trans          &trans  &trans  &trans  &trans                        &trans      &trans                  &trans  &trans            &trans              &trans            &trans              &trans
-&trans  &macro_pipe_de  &trans  &trans  &trans          &mkp LCLK  &mkp RCLK  &trans      &trans  &trans  &trans          &trans            &trans              &trans            &trans              &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &trans                                                        &trans  &trans  &macro_braces_de  &macro_brackets_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
+&trans  &trans          &trans  &trans  &trans  &trans  &trans                                                        &trans  &trans  &trans            &kp UP              &trans            &macro_asterisk_de  &macro_backslash_de
+&trans  &trans          &trans  &trans  &trans  &trans  &trans     &trans                 &trans      &trans  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp RIGHT         &kp RIGHT_BRACKET   &kp NUHS
+&trans  &trans          &trans  &trans  &trans  &trans                                    &trans      &trans                  &trans  &trans            &trans              &trans            &trans              &trans
+&trans  &macro_pipe_de  &trans  &trans  &trans          &mkp LCLK  &macro_right_click_kb  &trans      &trans  &trans  &trans          &trans            &trans              &trans            &trans              &trans
             >;
         };
     };
