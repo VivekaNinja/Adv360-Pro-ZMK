@@ -86,11 +86,11 @@
         layer_arrows {
             display-name = "Arrows";
             bindings = <
-&trans  &trans          &trans          &trans          &kp LA(F4)       &kp F5          &trans                                                     &trans  &trans  &macro_braces_de  &macro_brackets_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
-&trans  &trans          &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP    &trans                                                     &trans  &trans  &trans            &kp UP              &trans            &macro_asterisk_de  &macro_backslash_de
-&trans  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans     &trans       &trans             &trans  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp RIGHT         &kp RIGHT_BRACKET   &kp NUHS
-&trans  &trans          &trans          &trans          &trans           &trans                                  &kp PG_UP          &trans                  &trans  &trans            &trans              &trans            &trans              &trans
-&trans  &macro_pipe_de  &trans          &trans          &trans                           &kp KP_N5  &kp LS(F10)  &kp PAGE_DOWN      &trans  &trans  &trans          &trans            &trans              &trans            &trans              &trans
+&trans  &trans          &trans          &trans          &kp LA(F4)       &kp F5          &trans                                                   &trans  &trans  &macro_braces_de  &macro_brackets_de  &macro_parens_de  &macro_dquote_de    &macro_quotes_de
+&trans  &trans          &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP    &trans                                                   &trans  &trans  &trans            &kp UP              &trans            &macro_asterisk_de  &macro_backslash_de
+&trans  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans     &trans     &trans             &trans  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp RIGHT         &kp RIGHT_BRACKET   &kp NUHS
+&trans  &trans          &trans          &trans          &trans           &trans                                &kp PG_UP          &trans                  &trans  &trans            &trans              &trans            &trans              &trans
+&trans  &macro_pipe_de  &trans          &trans          &trans                           &mkp LCLK  &mkp RCLK  &kp PAGE_DOWN      &trans  &trans  &trans          &trans            &trans              &trans            &trans              &trans
             >;
         };
 
