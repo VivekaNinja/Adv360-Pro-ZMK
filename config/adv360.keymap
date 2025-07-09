@@ -17,7 +17,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
 
-/ {
+/* {
     behaviors {
         //#include "macros.dtsi"
 
@@ -37,12 +37,13 @@
     combos {
         compatible = "zmk,combos";
 
-        /*        CTRL_SHIFT {
+                CTRL_SHIFT {
             bindings = <&mo 4>;
             key-positions = <60 46>;
         };
-*/
+
     };
+*/
 
     macros {
         macro_lm: macro_lmmacro_lm {
