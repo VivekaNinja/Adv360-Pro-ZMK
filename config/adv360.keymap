@@ -102,25 +102,5 @@
 &trans     &macro_pipe_de  &trans    &trans        &trans                      &mkp LCLK  &mkp RCLK  &trans      &kp PG_DN  &mkp LCLK  &mkp RCLK                  &trans            &trans              &trans            &trans              &trans
             >;
         };
-
-        extra1 {
-            display-name = "Extra";
-            status = "reserved";
-        };
-
-        extra2 {
-            display-name = "Extra";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Extra";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Extra";
-            status = "reserved";
-        };
     };
 };
