@@ -8,26 +8,6 @@
 
 / {
     behaviors {
-        #include "macros.dtsi"
-      #include "version.dtsi"
-      #ifndef VERSION_MACRO
-
-        macro_ver: macro_ver {
-            compatible = "zmk,behavior-macro";
-            label = "macro_version";
-            #binding-cells = <0>;
-            bindings = <&kp RET>;
-        };
-
-        macro_CTRL_ALT_INS: macro_CTRL_ALT_INS {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(LA(INS))>;
-            label = "MACRO_CTRL_ALT_INS";
-        };
-
-        #endif
-
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
